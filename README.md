@@ -12,6 +12,7 @@ A React + Redux + Ant-Design frontend boilerplate.
 - [x] Babel
 - [x] PostCSS
 - [x] LESS
+- [ ] CSS Modules
 - [x] ESLint (Airbnb)
 - [x] JSCS (Airbnb)
 - [ ] Examples
