@@ -10,9 +10,9 @@ module.exports = {
   entry: {
     app: [
       'webpack-hot-middleware/client?reload=true',
-      './index.jsx',
+      './index.js',
     ],
-    vendors: ['react', 'antd'],
+    vendors: ['react', 'react-dom', 'redux', 'react-redux', 'react-router', 'react-router-redux'],
   },
 
   output: {
