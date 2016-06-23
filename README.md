@@ -14,7 +14,7 @@ A React + Redux + Ant-Design frontend boilerplate.
 - [x] LESS
 - [ ] CSS Modules
 - [x] ESLint (Airbnb)
-- [x] JSCS (Airbnb)
+- [x] JWT
 - [ ] Examples
 
 ## npm scripts
@@ -36,3 +36,15 @@ npm run lint
 ```
 npm run lint:fix
 ```
+
+#### Build
+```
+npm run build
+```
+Find built files in ./dist.
+
+#### Start (production)
+```
+npm run start
+```
+Open `http://localhost:3000` in your browser.
