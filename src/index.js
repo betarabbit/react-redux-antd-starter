@@ -1,4 +1,3 @@
-import 'antd/style/index.less'
 import './styles/base.less';
 
 import App from './containers/App';
