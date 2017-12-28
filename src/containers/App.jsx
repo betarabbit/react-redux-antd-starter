@@ -1,7 +1,5 @@
 import React from 'react';
-import Input from 'antd/lib/input'
-import DatePicker from 'antd/lib/date-picker'
-import Button from 'antd/lib/button'
+import Input from 'antd/lib/input';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -9,19 +7,21 @@ export default class App extends React.Component {
 
     this.state = {
       name: '',
-    }
+    };
   }
 
-  handleChange = (e) => {
+  handleChange = e => {
     this.setState({
       name: e.target.value,
     });
   };
 
   render() {
-    return <div>
-      <h1>Hey, there! {this.state.name}</h1>
-      <Input onChange={this.handleChange} />
-    </div>
+    return (
+      <div>
+        <h1>Hey, there! {this.state.name}</h1>
+        <Input onChange={this.handleChange} />
+      </div>
+    );
   }
 }

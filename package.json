@@ -19,7 +19,7 @@
   "author": "BetaRabbit",
   "license": "MIT",
   "dependencies": {
-    "antd": "^1.5.1",
+    "antd": "^3.0.3",
     "classnames": "^2.2.5",
     "jwt-decode": "^2.0.1",
     "lodash": "^4.13.1",
