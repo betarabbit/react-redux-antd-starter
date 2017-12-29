@@ -1,5 +1,10 @@
 import React from 'react';
-import Input from 'antd/lib/input';
+import { Layout } from 'antd';
+
+import AppSideMenu from './left-menu/left-menu-sider';
+import AppHeader from './app-header/app-header';
+
+const { Header, Content } = Layout;
 
 export default class App extends React.Component {
   constructor(props) {
@@ -19,8 +24,13 @@ export default class App extends React.Component {
   render() {
     return (
       <div>
-        <h1>Hey, there! {this.state.name}</h1>
-        <Input onChange={this.handleChange} />
+        <Layout className="row-100-vh">
+          <AppSideMenu />
+          <Layout>
+            <AppHeader />
+            <Content> Content</Content>
+          </Layout>
+        </Layout>
       </div>
     );
   }
