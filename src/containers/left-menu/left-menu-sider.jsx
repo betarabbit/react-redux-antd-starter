@@ -3,7 +3,7 @@ import { Layout } from 'antd';
 import { connect } from 'react-redux';
 import { PropTypes } from 'prop-types';
 
-import { LeftMenu } from '../../components/left-menu';
+import { AppMenu } from '../../components/app-menu/app-menu';
 
 const { Sider } = Layout;
 
@@ -14,13 +14,13 @@ class LeftMenuSider extends Component {
     return (
       <Sider collapsible collapsed={props.collapsed} trigger={null}>
         <div className="logo" />
-        <LeftMenu />
+        <AppMenu />
       </Sider>
     );
   }
 }
 
-LeftMenu.propTypes = {
+AppMenu.propTypes = {
   collapsed: PropTypes.bool,
 };
 

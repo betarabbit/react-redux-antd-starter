@@ -3,9 +3,9 @@ import { Menu, Icon } from 'antd';
 
 import _ from 'lodash';
 
-import { MENU_DATA } from '../data/menu-content';
+import { MENU_DATA } from '../../data/menu-content';
 
-export class LeftMenu extends Component {
+export class AppMenu extends Component {
   renderMenuTree(itemData) {
     if (itemData.children) {
       const subMenuItems = _.map(itemData.children, c => this.renderMenuTree(c));
