@@ -19,7 +19,7 @@
   "author": "BetaRabbit",
   "license": "MIT",
   "dependencies": {
-    "antd": "^1.5.1",
+    "antd": "^3.0.3",
     "classnames": "^2.2.5",
     "jwt-decode": "^2.0.1",
     "lodash": "^4.13.1",
@@ -29,11 +29,14 @@
     "react-dom": "^15.1.0",
     "react-redux": "^4.4.5",
     "react-router": "^2.4.1",
+    "react-router-dom": "^4.0.0",
     "react-router-redux": "^4.0.5",
     "react-router-scroll": "^0.2.0",
     "recharts": "^0.11.0",
     "redux": "^3.5.2",
     "redux-actions": "^0.10.0",
+    "redux-form": "^7.2.0",
+    "redux-promise": "^0.5.3",
     "redux-thunk": "^2.1.0",
     "reselect": "^2.5.1",
     "whatwg-fetch": "^1.0.0"
